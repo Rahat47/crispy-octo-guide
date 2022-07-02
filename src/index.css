@@ -1,13 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "lulo";
+  src: url("./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.woff2")
+      format("woff2"),
+    url("./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.woff")
+      format("woff"),
+    url("./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf")
+      format("truetype");
+
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* text-shadow */
+.text-shadow-main {
+  text-shadow: #ffffff 3px 3px 0px, rgb(0 0 0 / 20%) 6px 6px 0px;
+}
+.about-text-shadow {
+  text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px,
+    rgb(140 140 140 / 50%) 0px 4px 0px, #787878 0px 0px 0px,
+    rgb(0 0 0 / 50%) 0px 5px 10px;
+}
+.white-text-shadow {
+  text-shadow: #fff 1px 1px 0px, #fff 0px 2px 0px, #fff 0px 3px 0px,
+    rgb(255 255 255 / 100%) 0px 4px 0px, #fff 0px 0px 0px,
+    rgb(0 0 0 / 50%) 0px 5px 10px;
+}
+
+.about-second-text-shadow {
+  text-shadow: rgb(0 0 0 / 50%) -1px -1px 0px, rgb(0 0 0 / 50%) -1px 1px 0px,
+    rgb(0 0 0 / 50%) 1px 1px 0px, rgb(0 0 0 / 50%) 1px -1px 0px;
+}
+.about-third-text-shadow {
+  text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+}
+.home-text-shadow {
+  text-shadow: #45ffc7 3px 3px 0px, rgb(0 0 0 / 20%) 6px 6px 0px;
+}
+
+/* border-box-shadow  */
+.border-shadow {
+  box-shadow: 8.49px 8.49px 0px 0px rgba(15, 141, 125, 1);
+}
+.about-first-shadow {
+  box-shadow: 1px 1px rgba(126, 128, 9), 3px 3px rgba(126, 128, 9),
+    5px 5px rgba(126, 128, 9), 7px 7px rgba(126, 128, 9),
+    9px 9px rgba(126, 128, 9);
+}
+.about-second-shadow {
+  box-shadow: 1px 1px rgba(128, 39, 39), 3px 3px rgba(128, 39, 39),
+    5px 5px rgba(128, 39, 39), 7px 7px rgba(128, 39, 39),
+    9px 9px rgba(128, 39, 39);
+}
+.about-third-shadow {
+  box-shadow: 1px 1px rgba(35, 128, 100), 3px 3px rgba(35, 128, 100),
+    5px 5px rgba(35, 128, 100), 7px 7px rgba(35, 128, 100),
+    9px 9px rgba(35, 128, 100);
+}
+
+/* third section image */
+.main-image-shadow {
+  box-shadow: 11.18px 8.43px 22px 0px rgba(0, 0, 0, 0.5),
+    0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.third-section1 {
+  box-shadow: 24.15px 20.99px 15px 0px rgba(0, 0, 0, 0.5),
+    0 1px 3px rgba(0, 0, 0, 0.5);
 }
