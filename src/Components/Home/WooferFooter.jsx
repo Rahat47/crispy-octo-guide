@@ -19,7 +19,7 @@ const WooferFooter = () => {
             text="Apparel
             Photo
             Video"
-            bg="bg-[#45ffc7]"
+            bg="bg-box"
             isWhite={true}
             isBlue={true}
             width="w-[150px]"
@@ -42,7 +42,7 @@ const WooferFooter = () => {
               text="Click for         
               more Selfie
               stick photos!"
-              bg="bg-[#45ffc7]"
+              bg="bg-box"
               isWhite={true}
               isBlue={true}
               width="w-[210px]"

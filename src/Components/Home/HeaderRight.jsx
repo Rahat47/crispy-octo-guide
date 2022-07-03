@@ -10,7 +10,7 @@ const HeaderRight = () => {
       <img src={Insta} alt="insta" />
       <BoxText
         text="new"
-        bg="bg-[#45ffc7]"
+        bg="bg-box"
         isWhite={true}
         isBlue={true}
         width="w-[150px]"
@@ -21,7 +21,7 @@ const HeaderRight = () => {
       <Arrow rotate={"rotate-90"} />
       <BoxText
         text="CHECK OUT MY SENIOR THESIS HERE: BALTIGQ+"
-        bg="bg-[#fbff12]"
+        bg="bg-[#bcd42c]"
         isWhite={false}
         isBlue={false}
         width="w-[180px]"
@@ -32,7 +32,7 @@ const HeaderRight = () => {
       <Arrow rotate={"-rotate-90"} />
       <BoxText
         text="art direction"
-        bg="bg-[#45ffc7]"
+        bg="bg-box"
         isWhite={true}
         isBlue={true}
         width="w-[150px]"

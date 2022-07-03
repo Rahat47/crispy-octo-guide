@@ -8,9 +8,10 @@ module.exports = {
         secondary: "font-family: 'Roboto', sans-serif",
       },
       colors: {
-        primary: "#ffc2f2",
-        border: "#45ffc7",
-        "custom-blue": "#1b8f82",
+        primary: "#ffbecc",
+        border: "#5ce7d5",
+        box: "#5ce7d5",
+        "custom-blue": "#bcd42c",
       },
       content: {
         left: "url('assets/images/about/left.png')",

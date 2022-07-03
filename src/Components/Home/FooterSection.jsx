@@ -1,7 +1,6 @@
-import img1 from "../../assets/images/home/footer1.jpg";
-import img2 from "../../assets/images/home/footer2.jpg";
 import dolphin from "../../assets/images/home/mini-dol.gif";
-import img3 from "../../assets/images/home/sea.gif";
+import img2 from "../../assets/images/home/new/PBR.jpg";
+import img1 from "../../assets/images/home/new/Voodoo Ranger.png";
 import BoxIconText from "../Shared/BoxIconText";
 import BoxText from "../Shared/BoxText";
 
@@ -10,15 +9,28 @@ import FooterSocial from "../Shared/FooterSocial";
 const FooterSection = () => {
   return (
     <footer>
-      <div className="flex justify-center items-start gap-16 flex-wrap">
+      <div className="flex justify-center items-center gap-16 flex-wrap">
         {/* first column */}
+        <div className="flex flex-col items-center gap-8">
+          <img
+            src={img2}
+            alt=""
+            className="border-[5px] border-paper sketchy w-96 h-auto block"
+          />
+          <BoxIconText
+            text="other work"
+            width="w-[150px]"
+            fontSize="text-sm"
+            leftIcon={true}
+          />
+        </div>
+        {/* second column */}
         <div className="flex flex-col items-center gap-16">
           <div className="relative">
-            <img src={img1} alt="" className="w-[380px] relative z-10" />
             <img
-              src={img3}
+              src={img1}
               alt=""
-              className="w-[350px] h-[430px] absolute -bottom-10 -right-10"
+              className="w-[360px] hidden md:block border-svg border-8"
             />
           </div>
           <BoxIconText
@@ -29,23 +41,12 @@ const FooterSection = () => {
           />
         </div>
 
-        {/* second column */}
-        <div className="flex flex-col items-center gap-8">
-          <img src={img2} alt="" className="w-[400px] border-4 border-black" />
-          <BoxIconText
-            text="other work"
-            width="w-[150px]"
-            fontSize="text-sm"
-            leftIcon={true}
-          />
-        </div>
-
         {/* third column */}
 
         <div className="flex flex-col items-center gap-8 justify-end mt-32">
           <BoxText
             text="about me"
-            bg="bg-[#45ffc7]"
+            bg="bg-box"
             isWhite={true}
             isBlue={true}
             width="w-[120px]"
@@ -55,7 +56,7 @@ const FooterSection = () => {
           />
           <BoxText
             text="contact me"
-            bg="bg-[#45ffc7]"
+            bg="bg-box"
             isWhite={true}
             isBlue={true}
             width="w-[130px]"
