@@ -5,14 +5,17 @@ import ThirdSection from '../Components/Home/ThirdSection';
 import WooferSection from '../Components/Home/WooferSection';
 
 const Home = () => {
+
+    // #5ce7d5, #f4487a, #f4487a, #bcd42c
+
     return (
-        <section className='bg-[#ffabd9]'>
+        <main>
             <HeaderSection />
             <SecondSection />
             <ThirdSection />
             <WooferSection />
             <FooterSection />
-        </section>
+        </main>
     );
 };
 

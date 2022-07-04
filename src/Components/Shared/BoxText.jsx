@@ -11,7 +11,7 @@ const BoxText = ({
   return (
     <div
       className={`border-[1px] border-black rounded-lg ${bg} ${
-        isBlue ? "about-third-shadow" : "about-first-shadow"
+        isBlue ? "about-second-shadow" : "about-first-shadow"
       }  ${width} text-center relative ${
         isGif
           ? `after:absolute after:content-${content} after:right-[80%] after:-top-[12%] after:translate-x-[-50%]`

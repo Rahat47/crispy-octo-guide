@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'lulo';
-    src: url('./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.woff2')
-            format('woff2'),
-        url('./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.woff')
-            format('woff'),
-        url('./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf')
-            format('truetype');
+    font-family: "lulo";
+    src: url("./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.woff2")
+            format("woff2"),
+        url("./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.woff")
+            format("woff"),
+        url("./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf")
+            format("truetype");
 
     font-weight: 700;
     font-style: normal;
@@ -23,7 +23,7 @@ body {
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
 }
 
@@ -50,27 +50,27 @@ code {
     text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
 }
 .home-text-shadow {
-    text-shadow: #45ffc7 3px 3px 0px, rgb(0 0 0 / 20%) 6px 6px 0px;
+    text-shadow: #5ce7d5 3px 3px 0px, rgb(0 0 0 / 20%) 6px 6px 0px;
 }
 
 /* border-box-shadow  */
 .border-shadow {
-    box-shadow: 8.49px 8.49px 0px 0px rgba(15, 141, 125, 1);
+    box-shadow: 8.49px 8.49px 0px 0px #0f8d7d;
 }
 .about-first-shadow {
-    box-shadow: 1px 1px rgba(126, 128, 9), 3px 3px rgba(126, 128, 9),
-        5px 5px rgba(126, 128, 9), 7px 7px rgba(126, 128, 9),
-        9px 9px rgba(126, 128, 9);
+    box-shadow: 1px 1px #5ce7d5, 3px 3px #5ce7d5,
+        5px 5px #5ce7d5, 7px 7px #5ce7d5,
+        9px 9px #5ce7d5;
 }
 .about-second-shadow {
-    box-shadow: 1px 1px rgba(128, 39, 39), 3px 3px rgba(128, 39, 39),
-        5px 5px rgba(128, 39, 39), 7px 7px rgba(128, 39, 39),
-        9px 9px rgba(128, 39, 39);
+    box-shadow: 1px 1px #f4487a, 3px 3px #f4487a,
+        5px 5px #f4487a, 7px 7px #f4487a,
+        9px 9px #f4487a;
 }
 .about-third-shadow {
-    box-shadow: 1px 1px rgba(35, 128, 100), 3px 3px rgba(35, 128, 100),
-        5px 5px rgba(35, 128, 100), 7px 7px rgba(35, 128, 100),
-        9px 9px rgba(35, 128, 100);
+    box-shadow: 1px 1px #bcd42c, 3px 3px #bcd42c,
+        5px 5px #bcd42c, 7px 7px #bcd42c,
+        9px 9px #bcd42c;
 }
 
 /* third section image */
@@ -103,7 +103,7 @@ code {
 }
 
 .sketchy::before {
-    content: '';
+    content: "";
     border: 2px solid #353535;
     display: block;
     width: 100%;
@@ -113,4 +113,8 @@ code {
     left: 50%;
     transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
     border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+}
+
+.bg-primary {
+    background-color: #ffbecc !important;
 }
